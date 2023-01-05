@@ -6,6 +6,10 @@ org.ekstep.contenteditor.config = _.assign(org.ekstep.contenteditor.config, {
 		{ 'id': 'org.ekstep.sunbirdmetadata', 'ver': '1.1', 'type': 'plugin' },
 		{ 'id': 'org.ekstep.uploadlargecontent', 'ver': '1.0', 'type': 'plugin' }
 	],
-	extContWhitelistedDomains: 'youtube.com,youtu.be'
+	extContWhitelistedDomains: 'youtube.com,youtu.be',
+	cloudStorage: {
+        provider:'gcloud',
+        presigned_headers:{}
+    }
 })
 

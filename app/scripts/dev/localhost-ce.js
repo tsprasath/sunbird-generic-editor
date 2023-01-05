@@ -15,11 +15,8 @@ window.config = {
     apislug: "/action",
     dispatcher: "local",
     cloudStorage: {
-      provider: 'gcloud', // azure, aws, etc..
-      gcloud: {
-        presigned_headers: {
-          'Content-Type': 'application/octet-stream'
-        }
+      presigned_headers: {
+        'Content-Type': 'application/octet-stream'
       }
    }
 }
